@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <div class="header">
+      <div class="top">
+        <img src="./images/LOGO.png" alt="" id="logo" />
+        <div class="text dm-sans-light">
+          <div class="dropdown">
+            <a href="index.html#scroll">Our services</a>
+            <div class="dropdown-content">
+              <a href="index.html#scroll">Hotel and car reservations</a>
+              <a href="index.html#scroll">Escorted tours and group travel</a>
+              <a href="index.html#scroll">Travel insurance</a>
+              <a href="index.html#scroll">River cruising</a>
+            </div>
+          </div>
+          <a href="index.html#about">About us</a>
+          <button id="login" class="dm-sans-light" style="font-weight: 600">
+            Login
+          </button>
+        </div>
+      </div>
+      <div class="middle">
+        <h2 id="booknow" class="russo-one-regular">Book your holiday now!</h2>
+      </div>
+      <div class="bookings dm-sans-light">
+        <div class="info">
+          <div class="where">
+            <label for="dropdown">Where to?</label>
+            <select name="Where" id="Where" aria-placeholder="Where to?">
+              <option value="New York">USA</option>
+              <option value="Maldives">Italy</option>
+              <option value="Maldives">Spain</option>
+              <option value="Mexico">Greece</option>
+              <option value="Dubai">UAE</option>
+            </select>
+          </div>
+          <div class="from">
+            <label for="arrival">From</label>
+            <input type="date" name="" id="" />
+          </div>
+          <div class="to">
+            <label for="return">To</label>
+            <input type="date" name="" id="" />
+          </div>
+          <div class="search">
+            <button>Search</button>
+            <span class="material-symbols-outlined"> flight </span>
+          </div>
+        </div>
+      </div>
+      <img src="./images/Homepage.jpg" alt="" id="background" />
+    </div>
+    <div class="body dm-sans-light">
+      <h1>Popular Destinations</h1>
+      <div class="trips">
+        <div class="destionation">
+          <img src="./images/New york cover.jpg" alt="a picture of new york"  id="popular"/>
+          <h3>New York</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>USA</h4>
+          </div>
+          <p>Starting from 1500$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>8.5</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img
+            src="./images/Santorini cover.jpg"
+            alt="a picture of santorini"
+          />
+          <h3>Santorini</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Greece</h4>
+          </div>
+          <p>Starting from 1000$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>9.5</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img
+            src="./images/Amalfi cover.webp"
+            alt="a picture of teh amalfi coast"
+          />
+          <h3>Amalfi Coast</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Italy</h4>
+          </div>
+          <p>Starting from 1000$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>9</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img
+            src="./images/Dubrovnik cover.jpg"
+            alt="a picture of dubrovnik"
+          />
+          <h3>Dubrovnik</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Croatia</h4>
+          </div>
+          <p>Starting from 900$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>9.8</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img
+            src="./images/Barcelona cover.jpeg"
+            alt="a picture of new york"
+          />
+          <h3>Barcelona</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Spain</h4>
+          </div>
+          <p>Starting from 1300$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>8.9</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img src="./images/Dubai cover.jpg" alt="a picture of new york" />
+          <h3>Dubai</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>UAE</h4>
+          </div>
+          <p>Starting from 700$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>9.6</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img src="./images/Tokyo.jpg" alt="a picture of new york" />
+          <h3>Tokyo</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Japan</h4>
+          </div>
+          <p>Starting from 1700$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>9.7</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img src="./images/Bali.webp" alt="a picture of new york" />
+          <h3>Bali</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Indonesia</h4>
+          </div>
+          <p>Starting from 2000$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>9.8</p>
+          </div>
+        </div>
+        <div class="destionation">
+          <img src="./images/Sicily cover.webp" alt="a picture of new york" />
+          <h3>Sicily</h3>
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4>Italy</h4>
+          </div>
+          <p>Starting from 1400$ pp</p>
+          <div class="rating">
+            <span class="material-symbols-outlined"> kid_star </span>
+            <p>8.8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services dm-sans-light">
+      <img id="scroll" src="./images/services.webp" alt="" />
+      <div class="info">
+        <h1>Our Services</h1>
+        <div class="service">
+          <div>
+            <h3>Hotel and car reservations</h3>
+            <p>
+              Hotelier services are crafted to deliver personalized touches that
+              turn guest stays into unforgettable experiences.
+            </p>
+          </div>
+          <div>
+            <h3>Escorted tours and group travel</h3>
+            <p>
+              Our escorted tours cover off the top sights and take you far off
+              the beaten track for authentic experiences you'll look back on for
+              a lifetime.
+            </p>
+          </div>
+          <div>
+            <h3>Travel insurance</h3>
+            <p>
+              Chilling in Cabo or living it up in Miami? Get tailored travel
+              insurance with battleface. Tailored to your specific needs.
+            </p>
+          </div>
+          <div>
+            <h3>River cruising</h3>
+            <p>
+              River cruises provide an intimate voyage through the heartlands of
+              countries, offering direct access to the cultural and historical
+              tapestry of each destination
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about dm-sans-light">
+      <div class="info" id="about">
+        <h1> 
+          About Us
+        </h1>
+        <p>
+          Travel Tribe is a full-service travel agency that specializes in creating custom travel experiences for its clients. Whether you are looking for a romantic getaway, a family vacation, or an adventurous trip, Allure Travel can help make it happen. The travel site sets customers up with experienced agents that work to understand your travel goals and budget, and then create a personalized itinerary that includes everything from flights and hotels to activities and dining. Luxury vacations and exciting activities are Travel Tribes's expertise within the travel business. Traveling around the world, by private jet or yacht are a couple of high-end trips they might plan.
+        </p>
+        
+      </div>
+      <img src="./images/about us.jpg" alt="">
+    </div>
+    <div class="insta">
+      <div class="top  dm-sans-light">
+        <img src="./images/insta1.jpg" alt="">
+        <h1>@TravelTribe</h1>
+        <img src="./images/insta2.jpg" alt="">
+      </div>
+    
+     <div class="bottom">
+      <img src="./images/insta3.jpg" alt="an instagram picture" id="insta">
+     <span><i class="fa-brands fa-instagram"></i></span>
+      <img src="./images/insta4.jpg" alt="">
+      <img src="./images/insta5.jpg" alt="">
+     </div>
+    </div>
+    <div class="footer dm-sans-light">
+      <img src="./images/LOGO.png" alt="Logo of the agency">
+      <div class="left"> 
+        <div class="links">
+          <a href="index.html#scroll">Services</a>
+          <a href="index.html#about">About us</a>
+          <a href="index.html#popular">Popular Destinations</a>
+        </div>
+        <div class="cp">
+         <p><span><i class="fa-regular fa-copyright"></i></span> All rights reserved Tribe Travel 2025</p>
+        </div>
+      </div>
+      <div class="right">
+        <h3>Follow us on</h3>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-x-twitter"></i></span>
+        <span><i class="fa-brands fa-tiktok"></i></span>
+      </div>
+    
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
