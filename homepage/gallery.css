@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+.russo-one-regular {
+  font-family: "Russo One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans-light {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.header {
+  background-color: #267082;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .links{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+   
+    margin-right: 20px;
+}
+.header .links a {
+  text-decoration: underline;
+  color: white;
+}
+.header .links a:visited {
+  text-decoration: underline;
+  color: white;
+}
+.header img {
+  width: 300px;
+  background-color: #267082;
+  margin-left: 20px;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 36px;
+}
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 10px;
+  align-self: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.gallery img {
+  height: 450px;
+  width: 350px;
+}
